@@ -1,0 +1,294 @@
+@media screen and (min-width: 1201px) {
+    #hamburger-nav {
+        display: none;
+    }
+    
+    #profile {
+        height: 83vh;
+        padding-top: 0;
+    }
+    .about-containers {
+        flex-wrap: wrap;
+    }
+    .profile-body {
+    display: flex;
+    justify-content: space-around;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    gap: 7rem;
+}
+
+
+}
+
+@media screen and (max-width: 1200px) {
+    #desktop-nav {
+        display: none;
+    }
+
+    #hamburger-nav {
+        display: flex;
+        justify-content: space-between;
+        height: 10vh;
+        padding-right: 1rem;
+    }
+    
+    .logo-container {
+        padding-left: 1rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }    
+   
+     #me_pic{
+    height: 20rem;
+    padding-right: 0rem;
+    padding-top: 2rem;
+    border-radius: 3rem;
+ }
+    .section-container {
+    gap: 4rem;
+    height: 80%;
+}
+
+  
+    #experience .experience-details-container {
+        margin-top: 2rem;
+    }
+
+    #profile, .section-container {
+        display: block;
+    }
+    .arrow {
+        display: none;
+    }
+    section .section-container {
+        height: fit-content;
+    }
+    section {
+        margin: 0 5%;
+    }
+    .section__pic-container {
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 2rem;
+        z-index: -1;
+    }
+    .about-containers {
+        margin-top: 0;
+    }
+    #me_pic{
+        z-index: -1;
+    }
+        .ham_section__pic-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    width: 90vw;
+    padding-bottom: 2rem;
+    margin:auto 0;
+    z-index: -1;
+}
+#profile-pic-home{
+    display: flex;
+}
+    #profile-pic-home{
+        height: 20vh;
+        padding: 0;
+        margin: 0 5%;
+    }
+     .section__pic-container{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #desktop-nav {
+        display: none;
+    }  
+    #hamburger-nav {
+        z-index: 1;
+    }
+
+    
+     .logo-container {
+        padding-left: .25rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }  
+    
+     #me_pic{
+        
+    height: 15rem;
+    padding-right: 0rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 1rem;
+     }
+    
+    #profile-pic-home{
+    display: flex;
+}
+    #profile-pic-home{
+        height: 20vh;
+        padding: 0;
+        margin: 0 5%;
+    }
+    .section__pic-container{
+        display: none;
+    }
+    .ham_section__pic-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    width: 90vw;
+    padding-bottom: 2rem;
+    margin:auto 0;
+    z-index: -1;
+}
+    ul{
+        z-index: 1;
+    }
+    #contact footer {
+        height: 40vh;
+    }
+    .section__pic-container {
+         z-index: -1;
+    }
+    #profile {
+        height: 83vh;
+        margin-bottom: 0;
+        padding-top: 0px;
+    
+    }
+    #socials-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    article {
+        font-size: 1rem;
+       
+        }
+    footer nav {
+        height: fit-content;
+        margin-bottom: 2rem;
+    }
+    #name{
+        padding-bottom: 0rem;
+    }
+  
+    #about{
+        padding-bottom: 2rem;
+    }
+    .about-containers .contact-info-upper-container .btn-container {
+        flex-wrap: wrap;
+    }
+    .about-containers{
+        gap: .25rem;
+        margin: 0;
+        padding-top: 1rem;
+        width: 90vw;
+    }
+    .referral-details-container{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        width: 90vw;
+    }
+    #referrals{
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    .section-container {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .contact-info-container {
+        margin: 0;
+    }
+    .contact-info-container p .nav-links li a {
+        font-size: 1rem;
+    }
+    #contact-p{
+        padding: 0;
+        margin: 0;
+        margin-top: 1rem;
+    }
+    .ecxperience-sub-title {
+        font-size: 1rem;
+    }
+
+    .hamburger-icon{
+        padding-right: .5rem;
+    }
+
+    .logo {
+        font-size: 1.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: .25rem;
+    }
+    .nav-links {
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+    }
+    .section__pic-container {
+        width: auto;
+        height: 46vw;
+        justify-content: center;
+    }
+    .section__text__p1 {
+        padding-top: 0px;
+    }
+    .section__text__p2 {
+        font-size: 1.25rem;
+        margin: 0rem;
+    }
+    .title {
+        font-size: 2rem;
+        padding-top: 0rem;  
+    }
+    .text-container {
+        text-align: justify;
+        padding-top: 2rem;
+    }
+    .details-container {
+        padding-top: 1rem;
+    }
+#about-me {
+    margin-bottom: 0rem;
+}
+   .details-container{
+    width:75vw;
+    
+   } 
+#reason-p {
+    color: #12035e;
+    display: flex;
+    width: 14rem;
+    font-size: 1.25rem;
+}
+footer{
+    margin-top: 30px;
+}
+ #hamburger-nav {
+        z-index: 1;
+    }
+    a li{
+        z-index: 1;
+    }
+    h4{
+        font-size: 1.5rem;
+}
+hr{
+    display: none;
+}
+}
