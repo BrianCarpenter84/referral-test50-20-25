@@ -276,6 +276,27 @@ h4{
 hr{
     margin-bottom: 1rem;
 }
+.section__text__p7 {
+    text-align: center;
+    margin-top: 2rem;
+    color: #010020;
+}
+.title2 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 1rem;
+    color: #f30606;
+}
+.btn-color-8 {
+    background-color: #ffffff;
+    border: .15rem  #12035e solid;
+}
+
+.btn-color-8:hover {
+    background-color: #12035e;
+    color: azure;
+    cursor: pointer;
+}
 .title {
     font-size: 3rem;
     text-align: center;
@@ -336,6 +357,16 @@ hr{
 }
 .btn-container {
     gap: 1rem;
+}
+.btn-color-6 {
+    background-color: #ffffff;
+    border: .15rem  #010020 solid;
+}
+
+.btn-color-6:hover {
+    background-color: #12035e;
+    color: azure;
+    cursor: pointer;
 }
 /* 
 about section */
@@ -449,6 +480,16 @@ textarea {
 
 
 #contact{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: .5rem;
+        padding-top: 0;
+        padding-bottom: 0;
+        height: 50vh;
+    }
+    #success{
         display: flex;
         justify-content: center;
         align-items: center;
