@@ -325,6 +325,13 @@ hr{
     justify-content: center;
     gap: 1rem;
 }
+#a1{
+    color: rgb(212, 255, 0);
+}
+#a1:hover{
+    cursor: pointer;
+    text-decoration: none;
+}
 
 .btn {
     font-weight: 600;
@@ -489,7 +496,7 @@ textarea {
         padding-bottom: 0;
         height: 50vh;
     }
-    #success{
+#success{
         display: flex;
         justify-content: center;
         align-items: center;
