@@ -11,7 +11,7 @@
     <nav id="desktop-nav">
         <div class="logo-container">
             <img src="assets/thumbnail_Logo.png" height="40px"/>
-            <div class="logo">  icodeTrucker  </div>
+            <div class="logo">  ClevelandTrucker  </div>
             <img src="assets/thumbnail_Logo.png" height="40px"/> 
         </div>
         <div>
@@ -26,7 +26,7 @@
     <nav id="hamburger-nav">
         <div class="logo-container">
             <img src="assets/thumbnail_Logo.png" height="40px"/>
-            <div class="logo">  icodeTrucker  </div>
+            <div class="logo">  ClevelandTrucker  </div>
             <img src="assets/thumbnail_Logo.png" height="40px"/> 
         </div>
         
@@ -61,7 +61,7 @@
                 <h1 id="name" class="title">Brian Carpenter</h1>
                 <p class="section__text__p2">Driver for Penske Logistics</p>
                 <hr>
-                <p class="section__text__p3">I am not a spokesperson or recruiter for Penske Logistics<br/>This is a private website and my opions are my own.</p>
+                <p class="section__text__p3">I am not a spokesperson or recruiter for Penske Logistics<br/>This is a private website and my opinions are my own.</p>
                 <hr>
                 <div class="btn-container">
                     <button class="btn btn-color-2" onclick="location.href='./#referrals'">Referal Info</button>
@@ -165,20 +165,20 @@
     <section id="contact">
         <p id="contact-p" class="section__text__p5">Complete the form below!</p>
         <h1 id="contact-h1" class="contact-title" class="title">Contact Me</h1>
-        <form class="contact-form">
+        <form class="contact-form" action="https://formsubmit.co/651c219e9dd741976ed1c9064350b4d4" method="POST">
             
-            <input type="text" class="contact-form-item" class="fname" placeholder="First name">   
+            <input type="text" class="contact-form-item" name="name" class="name" placeholder="First name" required>   
             
-            <input type="text" class="contact-form-item" class="lname" placeholder="Last name">   
+            <input type="text" class="contact-form-item" name="lastName" class="last-name" placeholder="Last name" required>   
             
-            <input type="text" class="contact-form-item" class="zip" placeholder="Zip code">   
+            <input type="text" class="contact-form-item" name="zip" class="zip" placeholder="Zip code" required>   
             
-            <input type="text" class="contact-form-item" class="email" placeholder="Email">   
+            <input type="text" class="contact-form-item" name="email" class="email" placeholder="Email" required>   
             
-            <textarea rows="10" cols="40" name="message" class="contact-form-item">
+            <textarea rows="10" cols="40" name="message" class="contact-form-item" required>
 Hi Brian.  I am a responsible, dependable, enthusiastic, and safe truck driver!  I have 1+ years of experience as a class A driver.  I would like to talk about getting a Driver Referral! 
         </textarea>
-        <input class="btn btn-color-1"  type="submit"/>
+        <input class="btn btn-color-6"  type="submit"/>
         </form>
     </section>
     <footer>
